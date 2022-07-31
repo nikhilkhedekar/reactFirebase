@@ -1,0 +1,56 @@
+npm i firebase-tools firebase
+firebase login
+firebase init
+firebase init emulator
+
+firebase serve
+firebase deploy
+
+=======================================================
+
+need to remove all material ui imports
+
+npm i @material-ui/core
+npm i @material-ui/icons
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import jwtDecode from 'jwt-decode';
+
+import { Provider } from 'react-redux';
+import { connect } from 'react-redux';
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
+import thunk from 'redux-thunk';
+
+import axios from 'axios';
+
+import PropTypes from 'prop-types';
+
+import dayjs from 'dayjs';
+
+=============================================================
+
+util : done
+redux : store and types : done
+	reducers : done
+	actions : need to edit for axios
+images : done
+
+*components : 
+**layout : navbar and notification need to edit
+**profile : editDetails : userActions imported
+		profile : userActions imported
+		staticprofile : done
+**scream : commentForm : dataActions imported
+		comments : done 
+		deleteScream : dataActions imported
+		likeButton : dataActions imported
+		postScrems : dataActions imported
+		scream : done bt above files imported
+		screamDialog : other files and dataActions imported
+
+pages : home : dataActions imported
+	login : userACtions imported
+	signup : userACtions imported
+	user : dataACtions imported
+

@@ -1,0 +1,11 @@
+Docker:
+
+need to upgrade to pro 
+
+install docker desktop
+
+open power shell as an admin -> run command to enable hyper-v
+[ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All ] -> then run command to enable container -> 
+[ Enable-WindowsOptionalFeature -Online -FeatureName containers -Al ] 
+
+ 
